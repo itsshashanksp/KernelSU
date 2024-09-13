@@ -2,7 +2,9 @@
 # KernelSU
 * A fork of https://github.com/tiann/KernelSU.git by @tiann
 
-## Installing as a part of the kernel
+## Build Kernel with KernelSU
+
+## Installing as a part of the GKI based kernels
 
 1. Let's take [linux] as the path to your kernel source dir.
 ```
@@ -21,11 +23,7 @@
 	+obj-$(CONFIG_KSU)	+= kernelsu/
 ```
 
-4. Here you can find the guide for adding KSU hooks for non GKI kernels.
-
-*  https://kernelsu.org/guide/how-to-integrate-for-non-gki.html
-
-5. set KSU defconfig
+4. set KSU defconfig
 ```
 #
 # KernelSU
