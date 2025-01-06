@@ -1,6 +1,6 @@
 
 # KernelSU
-* A fork of https://github.com/tiann/KernelSU.git by @tiann
+* A fork of https://github.com/backslashxx/KernelSU.git by @tiann
 
 ## Installing as a part of the kernel
 
